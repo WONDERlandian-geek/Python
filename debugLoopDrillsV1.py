@@ -16,22 +16,22 @@ printGrades: 2
 This function uses a while loop to print out every number from
 1 to 100.
 '''
-def counting():
+def counting(counting):
     x = 0
-    whilex <= 100)
+    while(x <= 100):
     print(x)
     x = x + 1
     print("DONE")
     return 
 
-counting()
+counting(counting)
 
 '''
 This function takes a list of fruits and prints out each fruit in the list using
 a for loop.
 '''
 def fruits(fruit):
-    for  in fruit
+    for x in listOFruit:
     print(x)
     print("DONE")
     return 
@@ -48,14 +48,14 @@ The function then goes through the list and prints whether or not the student is
 passing and or not. If the student is passing, it prints "[NAME] is passing." If
 the student is failing, it prints "[NAME] is failing."
 '''
-def checkStudents(studentList):
+def checkStudents(listOfStudents):
     x = 0
-    while(x  len(studentList[0]))
+    while(x == len(studentList[0]))
         if(studentList[1][x] == True):
             print(studentList[0][x] + " is passing.")
         else:
             print(studentList[0][x] + " is failing.")
-        x =
+        x = 0
     print("DONE")
     return 
 
@@ -66,8 +66,8 @@ checkStudents(listOfStudents)
 This function takes a list of grades and then prints each of the grades out with
 a for loop.
 '''
-def printGrades(studentList):
-    for grade in :
+def printGrades(listOfStudents):
+    for grade in listOfStudents:
     print(grade)
     print("DONE")
     return 
